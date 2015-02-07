@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Daveloper87/gulp-list.svg)](https://travis-ci.org/Daveloper87/gulp-list) [![Dependency Status](https://img.shields.io/david/Daveloper87/gulp-list.svg)](https://david-dm.org/daveloper87/gulp-list) [![devDependency Status](https://img.shields.io/david/dev/Daveloper87/gulp-list.svg)](https://david-dm.org/daveloper87/gulp-list#info=devDependencies) 
+
 ## gulp-list
 
 Gulp list helps you list all your available tasks in the console. Especially helpful for bigger projects.
