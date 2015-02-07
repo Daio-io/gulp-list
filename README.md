@@ -4,6 +4,8 @@ Gulp list helps you list all your available tasks in the console. Especially hel
 
 ### Usage 
 
+    npm install gulp-list --save-dev
+
 Simply create a JSON file with your list of tasks:
 
 tasks.json
