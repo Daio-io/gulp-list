@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Daveloper87/gulp-list.svg)](https://travis-ci.org/Daveloper87/gulp-list) 
+
 ## gulp-list
 
 Gulp list helps you list all your available tasks in the console. Especially helpful for bigger projects.
