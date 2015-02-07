@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/Daveloper87/gulp-list.git"
+  },
   "author": "Daveloper87",
   "license": "ISC",
   "dependencies": {
