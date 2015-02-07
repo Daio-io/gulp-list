@@ -46,7 +46,7 @@ var displayTasks = function (tasks) {
     var spacing = setSpacing(tasks, 4);
     var tasksList = buildOutput(tasks, spacing);
 
-    console.log('\nAvailable Tasks:\n');
+    console.log(gutil.colors.blue.underline('\nAvailable Tasks:\n'));
     console.log(tasksList);
     return tasksList;
 };
@@ -62,7 +62,7 @@ var buildOutput = function (tasks, spacing) {
 
     var output = '';
     Object.keys(tasks).forEach(function (item) {
-        output += ' ' + gutil.colors.blue(item) +
+        output += ' ' + gutil.colors.cyan(item) +
             new Array(spacing - item.length + 1).join(" ") +
             tasks[item] + '\n';
     });
