@@ -15,17 +15,18 @@ tasks.json
 
 ```json
 {
-"task": "This is a task",
-"task 2": "This task does this thing",
-"task 3": "What was the point in making task 3...this is just an example"
+    "task": "This is a task",
+    "task 2": "This task does this thing",
+    "task 3": "What was the point in making task 3...this is just an example"
 }
 ```
 Then use with gulp like this:
 ```javascript
 var gulpList = require('gulp-list');
+
 gulp.task('help', function () {
-gulp.src('./path_to_your_tasks.json')
-.pipe(gulpList());
+    gulp.src('./path_to_your_tasks.json')
+    .pipe(gulpList());
 });
 ```
 
