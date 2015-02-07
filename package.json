@@ -1,18 +1,20 @@
 {
-  "name": "gulp-tasks",
-  "version": "1.0.0",
-  "description": "Gulp task displayer",
+  "name": "gulp-list",
+  "version": "0.5.0",
+  "description": "Gulp task lister",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "author": "Daveloper87",
   "license": "ISC",
   "dependencies": {
-    "gulp-util": "^3.0.3"
+    "gulp-util": "^3.0.3",
+    "through2": "^0.6.3"
   },
   "devDependencies": {
     "chai": "^1.10.0",
+    "gulp": "^3.8.10",
     "mocha": "^2.1.0"
   }
 }
