@@ -13,21 +13,27 @@ Simply create a JSON file with your list of tasks:
 
 tasks.json
 
-    {
-      "task": "This is a task",
-      "task 2": "This is another task",
-      "task 3": "..I think you get the idea"
-    }
-
+```json
+{
+"task": "This is a task",
+"task 2": "This task does this thing",
+"task 3": "What was the point in making task 3...this is just an example"
+}
+```
 Then use with gulp like this:
+```javascript
+var gulpList = require('gulp-list');
+gulp.task('help', function () {
+gulp.src('./path_to_your_tasks.json')
+.pipe(gulpList());
+});
+```
 
-    var gulpList = require('gulp-list');
-    
-    gulp.task('help', function () {
-        gulp.src('./path_to_your_tasks.json')
-            .pipe(gulpList());
-    
-    });
-    
+This will then print out your list of tasks to the console (note: The task name will be highighted blue)
+```shell
+Available Tasks:
 
-This will then print out your list of tasks to the console
+task      This is a task
+task 2    This task does this thing
+task 3    What was the point in making task 3...this is just an example
+```
