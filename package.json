@@ -1,6 +1,6 @@
 {
   "name": "gulp-list",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Gulp task lister",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,15 @@
   },
   "author": "Daveloper87",
   "license": "ISC",
+  "keywords": [
+    "gulp",
+    "list",
+    "tasks",
+    "show",
+    "gulplist",
+    "help",
+    "gulp-tasks"
+  ],
   "dependencies": {
     "gulp-util": "^3.0.3",
     "through2": "^0.6.3"
