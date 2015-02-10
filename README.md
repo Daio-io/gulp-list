@@ -21,7 +21,7 @@ tasks.json
 }
 ```
 
-You now also add WARN tags to your description to display further highlighted information to the user.
+You also add WARN tags to your description to display further highlighted information to the user.
 e.g. It may be a private or CI build task.
 
 ```json
