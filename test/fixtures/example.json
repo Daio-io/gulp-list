@@ -1,5 +1,5 @@
 {
     "task 1": "This task does this",
     "task 2": "This task does this thing",
-    "task 3": "What was the point in making task 3...this is just an example"
+    "task 3": "What was the point in making task 3...WARN: This function should not be run locally"
 }
