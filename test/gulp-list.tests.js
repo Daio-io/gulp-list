@@ -1,6 +1,5 @@
 var expect = require('chai').expect;
 var list = require('../index.js');
-var gulp = require('gulp');
 var gutil = require('gulp-util');
 var example = require('./fixtures/example.json');
 
@@ -25,6 +24,21 @@ describe('Gulp-Tasks-Tests', function () {
         var stream = list();
 
         expect(function () {stream.write(fixture)}).to.not.throw(Error);
+        stream.end();
+        done();
+
+    });
+
+    it('should throw error when invalid file sent', function (done) {
+
+        var stream = list();
+
+        var errorFile  = {
+            nothing: 'special',
+            should: 'fail'
+        };
+
+        expect(function () {stream.write(errorFile)}).to.throw(Error);
         stream.end();
         done();
 

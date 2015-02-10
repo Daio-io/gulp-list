@@ -1,6 +1,6 @@
 {
   "name": "gulp-list",
-  "version": "0.5.3",
+  "version": "0.5.5",
   "description": "Gulp task lister",
   "main": "index.js",
   "scripts": {

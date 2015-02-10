@@ -20,6 +20,16 @@ tasks.json
     "task 3": "What was the point in making task 3...this is just an example"
 }
 ```
+
+You now also add WARN tags to your description to display further highlighted information to the user.
+e.g. It may be a private or CI build task.
+
+```json
+{
+    "task": "This task is private. WARN: So I will tell you it is private"
+}
+```
+
 Then use with gulp like this:
 ```javascript
 var gulpList = require('gulp-list');
@@ -30,7 +40,9 @@ gulp.task('help', function () {
 });
 ```
 
-This will then print out your list of tasks to the console (note: The task name will be highighted blue)
+This will then print out your list of tasks to the console (note: The task name will be highighted blue and any WARN's
+will be highlighted red)
+
 ```shell
 Available Tasks:
 
