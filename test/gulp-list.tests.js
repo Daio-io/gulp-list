@@ -50,7 +50,7 @@ describe('Gulp-Tasks-Tests', function () {
 
         stream.once('data', function (data) {
 
-            expect(data).to.exist();
+            expect(data).to.exist;
             expect(data).to.have.string('task 1');
             expect(data).to.have.string('task 2');
             expect(data).to.have.string('task 3');
