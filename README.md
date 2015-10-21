@@ -1,5 +1,7 @@
 [![NPM](https://img.shields.io/npm/v/gulp-list.svg)](https://www.npmjs.com/package/gulp-list)
-[![Build Status](https://travis-ci.org/Daveloper87/gulp-list.svg)](https://travis-ci.org/Daveloper87/gulp-list) [![Dependency Status](https://img.shields.io/david/Daveloper87/gulp-list.svg)](https://david-dm.org/daveloper87/gulp-list) [![devDependency Status](https://img.shields.io/david/dev/Daveloper87/gulp-list.svg)](https://david-dm.org/daveloper87/gulp-list#info=devDependencies) 
+[![Build Status](https://travis-ci.org/Daio-io/gulp-list.svg)](https://travis-ci.org/Daio-io/gulp-list) 
+[![Dependency Status](https://img.shields.io/david/Daio-io/gulp-list.svg)](https://david-dm.org/daio-io/gulp-list) 
+[![devDependency Status](https://img.shields.io/david/dev/Daio-io/gulp-list.svg)](https://david-dm.org/daio-io/gulp-list#info=devDependencies) 
 
 ## gulp-list
 
